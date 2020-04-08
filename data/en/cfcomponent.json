@@ -44,7 +44,7 @@
 		{"name":"attribute","description":"CF9+ If the attribute is set to false at the component level, then the implicit getters and setters for the individual properties are ignored.","required":false,"default":true,"type":"boolean","values":[true,false]},
 		{"name":"mappedSuperClass","description":"CF9.0.1+ When true on a non persistent CFC, CFCs that extend this component can inherit properties.","required":false,"default":"false","type":"boolean","values":[true,false]},
 		{"name":"rest","description":"CF10+ Enables/disables REST.\nrestPath must be specified to enable REST","required":false,"default":"false","type":"boolean","values":["true","false"]},
-		{"name":"restPath","description":"CF10+ Path to access the REST-API","required":false,"default":"","type":"string","values":["true","false"]},
+		{"name":"restPath","description":"CF10+ Path to access the REST-API","required":false,"default":"","type":"string","values":[]},
 		{"name":"httpMethod","description":"CF10+","required":false,"default":"","type":"string","values":["GET","POST","PUT","DELETE","HEAD","OPTIONS"]},
 		{"name":"produces","description":"CF10+ Comma-separated list of acceptable MIME types for output","required":false,"default":"/","type":"string","values":["text/plain,text/html","..."]},
 		{"name":"consumes","description":"CF10+ Comma-separated list of acceptable MIME types for input","required":false,"default":"/","type":"string","values":["text/plain,text/html","..."]},
